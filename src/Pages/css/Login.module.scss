@@ -1,0 +1,32 @@
+.loginContainer{
+    text-align: center;
+    .icon{
+        font-size: 7rem;
+    }
+    .form{
+        div{
+            label{
+                margin-bottom: -10px;
+            }
+            input{
+                padding: 1rem 3rem;
+                width: 90%;
+                font-size: 2rem;
+            }
+            
+        }
+        button{
+            padding: 1rem 3rem;
+            background-color: rgba(0, 0, 255, 0.726);
+            color: white;
+            font-size: 3rem;
+            border: .2rem solid white;
+            cursor: pointer;
+            transition: all .3s ease-in-out;
+
+            &:hover{
+                background-color: blue;
+            }
+        }
+    }
+}

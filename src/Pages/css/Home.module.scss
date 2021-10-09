@@ -1,0 +1,12 @@
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 4rem;
+    margin: 1rem 5rem;
+
+    button{
+        cursor: pointer;
+        padding: 1rem 3rem;
+    }
+}

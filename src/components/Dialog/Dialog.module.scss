@@ -1,0 +1,47 @@
+.overlay {
+  background-color: rgba(0, 0, 0, 0.596);
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.Dialog {
+  height: 300px;
+  width: 50rem;
+  background-color: blanchedalmond;
+  z-index: 99;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.603);
+
+  .errIcon {
+    font-size: 8rem;
+    text-align: center;
+    color: red;
+  }
+
+  .main {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .btn {
+    position: relative;
+    top: 6rem;
+    text-align: right;
+    margin: 0 2rem;
+    button {
+      padding: 0.5rem 2rem;
+      font-size: 2rem;
+      cursor: pointer;
+    }
+  }
+}
